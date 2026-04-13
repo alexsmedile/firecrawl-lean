@@ -6,7 +6,7 @@
   <img src="./docs/assets/firecrawl-lean-mark.svg" alt="firecrawl-lean mark" width="120" height="120">
 </p>
 
-<h1 align="center">Token-efficient Firecrawl skill for Claude Code.</h1>
+<h1 align="center">Token-efficient Firecrawl skill for Coding Agents.</h1>
 
 <p align="center">
   Web search, scrape, crawl, and extract — ~60% fewer tokens than the official skill.
@@ -44,7 +44,7 @@ Every skill file loads into Claude's context window on each turn. Bloated skills
 ## Install
 
 ```bash
-npx skills add alexsmedile/firecrawl-lean
+npx skills add https://github.com/alexsmedile/firecrawl-lean
 ```
 
 Requires [Firecrawl CLI](https://github.com/firecrawl/cli):
