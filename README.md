@@ -44,11 +44,7 @@ Every skill file loads into Claude's context window on each turn. Bloated skills
 ## Install
 
 ```bash
-# Via Claude Code skill installer
-claude skill install alexsmedi/firecrawl-lean
-
-# Or manually — copy SKILL.md into your project's .claude/skills/
-cp SKILL.md /your/project/.claude/skills/firecrawl-lean.md
+npx skills add alexsmedile/firecrawl-lean
 ```
 
 Requires [Firecrawl CLI](https://github.com/firecrawl/cli):
