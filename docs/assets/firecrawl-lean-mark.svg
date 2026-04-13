@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <!-- Background circle -->
+  <circle cx="60" cy="60" r="56" fill="#0f0f0f" stroke="#222" stroke-width="1.5"/>
+
+  <!-- Flame shape (Firecrawl nod) — lean/minimal -->
+  <path d="M60 28 C60 28 72 42 72 54 C72 60 68 64 64 62 C66 56 62 50 60 46 C58 50 54 56 56 62 C52 64 48 60 48 54 C48 42 60 28 60 28Z" fill="#ff4d00" opacity="0.9"/>
+
+  <!-- Thin horizontal lines suggesting "lean" / compression -->
+  <line x1="34" y1="76" x2="86" y2="76" stroke="#ff4d00" stroke-width="2" stroke-linecap="round" opacity="0.9"/>
+  <line x1="40" y1="84" x2="80" y2="84" stroke="#ff4d00" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+  <line x1="48" y1="92" x2="72" y2="92" stroke="#ff4d00" stroke-width="2" stroke-linecap="round" opacity="0.3"/>
+</svg>
