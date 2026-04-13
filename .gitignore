@@ -1,0 +1,10 @@
+# Firecrawl output
+.firecrawl/
+
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Local config
+*.local.md
+*.webloc
