@@ -8,3 +8,6 @@
 # Local config
 *.local.md
 *.webloc
+
+# Local archive
+_archive/
