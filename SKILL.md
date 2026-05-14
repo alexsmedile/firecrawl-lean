@@ -88,6 +88,17 @@ firecrawl browser list
 firecrawl browser close <session-id>
 ```
 
+**Claude Workflows** — multi-step research/audit/QA tasks via Claude Code (15+ pre-built, CLI v1.9.8+):
+```bash
+firecrawl claude deep-research "<topic>"           # multi-source research (5-25+ sources)
+firecrawl claude competitor-analysis "<url>"       # site + competitors comparison
+firecrawl claude lead-research "<company>"         # pre-meeting brief
+firecrawl claude seo-audit "<url>"                 # audit + fix recommendations
+firecrawl claude qa "<url>"                        # parallel browser-agent QA test
+firecrawl claude knowledge-base "<docs-url>"       # build RAG corpus from docs
+firecrawl claude --help                            # full list (also: market-research, demo, shop, lead-gen, …)
+```
+
 ## Output rules
 
 - Always write to `.firecrawl/` with `-o` to avoid context bloat
