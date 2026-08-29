@@ -1,0 +1,34 @@
+{
+  "name": "firecrawl-lean",
+  "owner": {
+    "name": "Alessandro Smedile"
+  },
+  "metadata": {
+    "description": "Web scraping, search, crawling, and browser interaction via Firecrawl CLI.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "firecrawl-lean",
+      "source": "./",
+      "description": "Web scraping, search, crawling, and browser interaction via Firecrawl CLI.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Alessandro Smedile"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/alexsmedile/firecrawl-lean",
+      "repository": "https://github.com/alexsmedile/firecrawl-lean",
+      "keywords": [
+        "firecrawl",
+        "scraping",
+        "web-search",
+        "crawling",
+        "browser",
+        "claude-code",
+        "skills"
+      ],
+      "category": "productivity"
+    }
+  ]
+}

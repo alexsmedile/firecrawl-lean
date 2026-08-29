@@ -1,0 +1,21 @@
+{
+  "name": "firecrawl-lean",
+  "version": "1.0.0",
+  "description": "Web scraping, search, crawling, and browser interaction via Firecrawl CLI.",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "firecrawl-lean",
+    "shortDescription": "Scrape, search, crawl, and interact with the web via Firecrawl CLI.",
+    "longDescription": "Lean Firecrawl CLI skill: web search, URL scraping, site crawling, structured data extraction, and browser interaction for JS-heavy or login-gated pages.",
+    "developerName": "Alessandro Smedile",
+    "category": "Productivity",
+    "capabilities": ["Read", "Write"],
+    "websiteURL": "https://github.com/alexsmedile/firecrawl-lean",
+    "defaultPrompt": [
+      "Search the web for recent news about X.",
+      "Scrape this URL and return the content.",
+      "Crawl this docs site and extract all pages."
+    ],
+    "brandColor": "#ef4444"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "firecrawl-lean",
+  "interface": {
+    "displayName": "firecrawl-lean"
+  },
+  "plugins": [
+    {
+      "name": "firecrawl-lean",
+      "source": {
+        "source": "local",
+        "path": "../../"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
